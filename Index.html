@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Chauthe | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="navbar-brand">My Portfolio</a>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#projects" class="nav-link"><i class="fas fa-briefcase"></i> Projects</a></li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link dropdown-toggle"><i class="fas fa-cogs"></i> Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#web-development" class="dropdown-item"><i class="fas fa-code"></i> Web Development</a></li>
+                        <li><a href="#design" class="dropdown-item"><i class="fas fa-paint-brush"></i> Design</a></li>
+                        <li><a href="#consulting" class="dropdown-item"><i class="fas fa-comments"></i> Consulting</a></li>
+                    </ul>
+                </li>
+                <li><a href="#skills" class="nav-link"><i class="fas fa-laptop-code"></i> Skills</a></li>
+                <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    
+
+    <!-- Hero Section -->
+    <section id="home" class="section home">
+        <div class="particles" id="particles-js"></div>
+        <div class="overlay">
+            <div class="content" data-aos="fade-up">
+                <h1>Hi, I'm <span class="highlight typewriter">Abhishek Chauthe</span></h1>
+                <p class="roles" id="roles">
+                    <span class="role">Java Full Stack Developer</span>
+                    <span class="role">Problem Solver</span>
+                    <span class="role">Tech Enthusiast</span>
+                </p>
+                <div class="cta-buttons">
+                    <button class="cta-btn primary" onclick="document.querySelector('#about').scrollIntoView({ behavior: 'smooth' })">
+                        Discover My Work
+                    </button>
+                    <button class="cta-btn secondary" onclick="document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' })">
+                        Get In Touch
+                    </button>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/abhichauthe" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/abhishek-chauthe" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:chautheabhishek@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://leetcode.com/u/chautheabhishek/" target="_blank" class="social-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.5 3.5L8.1 4.9L13.2 10L8.1 15.1L9.5 16.5L15.6 10.4L9.5 3.5Z" fill="#FFA116"/>
+                            <path d="M8.1 3.5L3.5 8.1C0.4 11.2 0.4 16.4 3.5 19.5L8.1 24L9.5 22.6L4.9 18C2.3 15.4 2.3 12.2 4.9 9.6L9.5 5L8.1 3.5Z" fill="#FFA116"/>
+                            <path d="M15.9 3.5L14.5 5L19.1 9.6C21.7 12.2 21.7 15.4 19.1 18L14.5 22.6L15.9 24L20.5 19.4C23.6 16.3 23.6 11.1 20.5 8L15.9 3.5Z" fill="#333"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container" data-aos="fade-up">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-frame">
+                        <img src="Abhishek Photo.jpg" alt="Abhishek Chauthe">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>Passionate Java Full Stack Developer with a solid foundation in designing and implementing scalable web applications, proficient in front-end and back-end technologies. Committed to creating impactful, user-focused solutions that seamlessly integrate functionality and performance. Known for a methodical approach to problem-solving and an eagerness to continuously evolve in the technology space, with a proven track record of delivering efficient, high-quality code and responsive design.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Technologies Mastered</span>
+                        </div>
+                    
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    
+    
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container" data-aos="fade-up">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-list">
+                        <div class="skill-card">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                            <div class="progress-bar" data-progress="90"></div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                            <div class="progress-bar" data-progress="85"></div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                            <div class="progress-bar" data-progress="80"></div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-java"></i> <!-- Using Java icon as a substitute for JSP -->
+                            <span>JSP</span>
+                            <div class="progress-bar" data-progress="80"></div>
+                        </div>
+                        <!-- Data Structures & Algorithms Icon -->
+                        <div class="skill-card">
+                            <img src="logo-data-structure.png" alt="Data Structures and Algorithms" style="width: 50px; height: 50px;">
+                            <span>Data Structures & Algorithms</span>
+                            <div class="progress-bar" data-progress="75"></div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-list">
+                        <div class="skill-card">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                            <div class="progress-bar" data-progress="95"></div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-leaf"></i>
+                            <span>Spring</span>
+                            <div class="progress-bar" data-progress="85"></div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-leaf"></i>
+                            <span>Spring Boot</span>
+                            <div class="progress-bar" data-progress="85"></div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                            <div class="progress-bar" data-progress="80"></div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-database"></i>
+                            <span>MongoDB</span>
+                            <div class="progress-bar" data-progress="80"></div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-leaf"></i>
+                            <span>Servlet</span>
+                            <div class="progress-bar" data-progress="85"></div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-leaf"></i>
+                            <span>Hibernate</span>
+                            <div class="progress-bar" data-progress="85"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container" data-aos="fade-up">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="project-carousel">
+                <div class="project-wrapper">
+                    <div class="project-card" data-aos="fade-up">
+                        <div class="project-image">
+                            <img src="/api/placeholder/400/300" alt="Sorting Visualizer">
+                        </div>
+                        <div class="project-content">
+                            <h3>Sorting Visualizer</h3>
+                            <p>Interactive web-based application demonstrating various sorting algorithms with dynamic visualization and speed control.</p>
+                            <div class="project-tech">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://abhishekchauthe-sorting-visualizer.netlify.app/" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i> Live Demo
+                                </a>
+                                <a href="#" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i> Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="project-image">
+                            <img src="/api/placeholder/400/300" alt="AstraVault Banking">
+                        </div>
+                        <div class="project-content">
+                            <h3>AstraVault Banking Solution</h3>
+                            <p>Comprehensive banking system featuring secure transactions, user authentication, and real-time account management.</p>
+                            <div class="project-tech">
+                                <span>Java</span>
+                                <span>Spring Boot</span>
+                                <span>MySQL</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/abhichauthe/SecureFund" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i> Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more project cards here -->
+                    <div class="project-card" data-aos="fade-up">
+                        <div class="project-image">
+                            <img src="/api/placeholder/400/300" alt="Project 3">
+                        </div>
+                        <div class="project-content">
+                            <h3>eCommerce Payment Processing System </h3>
+                            <p> Developed a secure eCommerce payment processing system integrating credit card, debit card, and UPI options. Utilized RESTful APIs for seamless transaction handling, ensuring real-time processing and user experience. This system significantly improves payment flexibility and customer satisfaction.</p>
+                            <div class="project-tech">
+                                <span>Spring-Boot</span>
+                                <span>Java</span>
+                                <span>MySQL</span>
+                                <span>Hibernate</span>
+
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/abhichauthe/payment-processing-initial-payment.git" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i> Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-aos="fade-up">
+                        <div class="project-image">
+                            <img src="/api/placeholder/400/300" alt="Project 4">
+                        </div>
+                        <div class="project-content">
+                            <h3>Project 4</h3>
+                            <p>Description of project 4.</p>
+                            <div class="project-tech">
+                                <span>Tech 1</span>
+                                <span>Tech 2</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">Live Demo</a>
+                                <a href="#" class="project-link">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-aos="fade-up">
+                        <div class="project-image">
+                            <img src="/api/placeholder/400/300" alt="Project 5">
+                        </div>
+                        <div class="project-content">
+                            <h3>Project 5</h3>
+                            <p>Description of project 5.</p>
+                            <div class="project-tech">
+                                <span>Tech 1</span>
+                                <span>Tech 2</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">Live Demo</a>
+                                <a href="#" class="project-link">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience">
+        <div class="container" data-aos="fade-up">
+            <h2 class="section-title">Professional Journey</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-content">
+                        <h3>Java Developer Intern</h3>
+                        <h4>HulkHire</h4>
+                        <ul class="timeline-details">
+                            <li>Developed eCommerce payment processing system using Spring Boot and Stripe API</li>
+                            <li>Implemented secure transaction handling and optimization</li>
+                            <li>Collaborated with cross-functional teams to deliver high-quality solutions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container" data-aos="fade-up">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location</h3>
+                        <p>Pune, Maharashtra, India</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p><a href="mailto:chautheabhishek@gmail.com">chautheabhishek@gmail.com</a></p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p><a href="tel:+919075351052">+91 9075351052</a></p>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <span class="focus-border"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <span class="focus-border"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                        <span class="focus-border"></span>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Abhishek Chauthe. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://github.com/abhichauthe" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/abhishek-chauthe" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:chautheabhishek@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
